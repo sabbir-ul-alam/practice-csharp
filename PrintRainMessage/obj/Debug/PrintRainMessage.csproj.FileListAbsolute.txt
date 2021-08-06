@@ -1,0 +1,7 @@
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\bin\Debug\PrintRainMessage.exe.config
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\bin\Debug\PrintRainMessage.exe
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\bin\Debug\PrintRainMessage.pdb
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\obj\Debug\PrintRainMessage.csprojAssemblyReference.cache
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\obj\Debug\PrintRainMessage.csproj.CoreCompileInputs.cache
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\obj\Debug\PrintRainMessage.exe
+C:\Pertition\programming\c# programming\practice-csharp\PrintRainMessage\obj\Debug\PrintRainMessage.pdb
