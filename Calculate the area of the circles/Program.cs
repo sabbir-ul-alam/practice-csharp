@@ -12,12 +12,14 @@ namespace Calculate_the_area_of_the_circles
         {
             int radius;
             float area;
-            const float PI = (float)Math.PI;
-            for (radius = 0; radius <= 5; radius++)
-            {
-                area = PI * (float)Math.Pow(radius, 2);
-                Console.WriteLine("Radius: {0},  Area: {1,5:N2}",radius,area);
+            
+            for (radius = 0; radius <= 5; radius++) {
+                Circle circle = new Circle(radius);
+                Console.WriteLine("Radius: {0}, Area: {1,5:N2}",circle.Radius, circle.Area);
+
+
             }
+
         }
     }
 }
