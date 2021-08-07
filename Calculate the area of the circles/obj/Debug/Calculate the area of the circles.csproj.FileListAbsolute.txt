@@ -1,0 +1,7 @@
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\bin\Debug\Calculate the area of the circles.exe.config
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\bin\Debug\Calculate the area of the circles.exe
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\bin\Debug\Calculate the area of the circles.pdb
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\obj\Debug\Calculate the area of the circles.csprojAssemblyReference.cache
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\obj\Debug\Calculate the area of the circles.csproj.CoreCompileInputs.cache
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\obj\Debug\Calculate the area of the circles.exe
+C:\Pertition\programming\c# programming\practice-csharp\Calculate the area of the circles\obj\Debug\Calculate the area of the circles.pdb
