@@ -64,7 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\PrintCircleInformation.cs" />
+    <Compile Include="Assets\scripts\Circle.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Pertition/programming/c# programming/practice-csharp/Unity Calculate the area of the circle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
