@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class WrostGameEver : MonoBehaviour
 {
+    const float LifeSpanSeconds = 5;
+    Timer deathTimer;
     // Start is called before the first frame update
     void Start()
     {
+        deathTimer = gameObject.AddComponent<Timer>();
+        deathTimer.Duration = LifeSpanSeconds;
+        deathTimer.Run();
         const float MinImpulseForce = 3f;
         const float MaxImpulseForce = 5f;
         float angle = Random.Range(0, 2 * Mathf.PI);
@@ -17,6 +22,14 @@ public class WrostGameEver : MonoBehaviour
             direction * magnitude,
             ForceMode2D.Impulse);
 
+    }
+    void Update()
+    {
+        if (deathTimer.Finished)
+        {
+            Destroy(gameObject);
+        }
+        
     }
 
     // Update is called once per frame
