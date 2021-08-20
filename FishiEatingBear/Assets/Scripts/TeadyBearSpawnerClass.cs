@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// A teddy bear spawner
 /// </summary>
-public class TeddyBearSpawner : MonoBehaviour
+public class TeadyBearSpawnerClass : MonoBehaviour
 {
 	// needed for spawning
 	[SerializeField]
@@ -17,7 +17,7 @@ public class TeddyBearSpawner : MonoBehaviour
 
 	// spawn control
 	const float MinSpawnDelay = 1;
-	const float MaxSpawnDelay = 2;
+	const float MaxSpawnDelay = 4;
 	Timer spawnTimer;
 
 	// spawn location support
@@ -76,7 +76,6 @@ public class TeddyBearSpawner : MonoBehaviour
 
 		// set random sprite for new teddy bear
 		SpriteRenderer spriteRenderer = teddyBear.GetComponent<SpriteRenderer>();
-
 		spriteRenderer.sprite = teddyBearSprite0;
 
 	}

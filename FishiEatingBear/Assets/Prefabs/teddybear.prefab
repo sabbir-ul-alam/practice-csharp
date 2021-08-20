@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7951861871233847894}
   - component: {fileID: 7467084319253842173}
   - component: {fileID: 5274880985898600488}
+  - component: {fileID: 4989259422133035566}
   m_Layer: 0
   m_Name: teddybear
   m_TagString: Untagged
@@ -93,8 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa08f91eb05c90e4c839560432bb85b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minImpulseForce: 5
-  maxImpulseForce: 10
+  minImpulseForce: 3
+  maxImpulseForce: 6
 --- !u!50 &5274880985898600488
 Rigidbody2D:
   serializedVersion: 4
@@ -109,10 +110,36 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 33a7fb18ff99d3147bbe294cf0c8eb32, type: 2}
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!61 &4989259422133035566
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751632932320888735}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 33a7fb18ff99d3147bbe294cf0c8eb32, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.002653487, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.22624393, y: 0.32}
+  m_EdgeRadius: 0

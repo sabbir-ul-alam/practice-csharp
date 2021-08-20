@@ -9,6 +9,10 @@ public class TeadyBearClass : MonoBehaviour
     [SerializeField]
     float maxImpulseForce;
     // Start is called before the first frame update
+
+    // death support
+    const float TeddyBearLifespanSeconds = 10;
+    Timer deathTimer;
     void Start()
     {
         float angle = Random.Range(0, 2 * Mathf.PI);
@@ -18,12 +22,20 @@ public class TeadyBearClass : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(
             direction * magnitude,
             ForceMode2D.Impulse);
+        // create and start timer
+        deathTimer = gameObject.AddComponent<Timer>();
+        deathTimer.Duration = TeddyBearLifespanSeconds;
+        deathTimer.Run();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (deathTimer.Finished)
+        {
+            Destroy(gameObject);
+        }
+
     }
 }
