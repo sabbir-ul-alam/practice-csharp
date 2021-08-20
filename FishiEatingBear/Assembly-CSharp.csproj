@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TeadyBearClass.cs" />
     <Compile Include="Assets\Scripts\TeadyBearSpawnerClass.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Pertition/programming/c# programming/practice-csharp/FishiEatingBear/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
